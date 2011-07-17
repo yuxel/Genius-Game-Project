@@ -7,7 +7,7 @@ util.array.unique = function (arrayItem){
     	for(var j=i+1; j<l; j++){
     		if(arrayItem[i] === arrayItem[j]){
    				j = ++i;
-   			}
+			}
    	}
    	a.push(arrayItem[i]);
 }
