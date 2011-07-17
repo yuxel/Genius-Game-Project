@@ -1,4 +1,3 @@
-/*
 // Random olarak oluşturduğum array'de ki aynı sayıları ayıklar.
 var util = {};
 util.array = {};
@@ -105,4 +104,3 @@ $(function(){
         randomNumber();
     });
 });
-*/
