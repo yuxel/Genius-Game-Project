@@ -1,0 +1,77 @@
+body{
+    font-family:Tahoma, sans-serif;
+	background:#6DA627;
+	color:gray;
+}
+.outer{
+	margin:0 auto;
+	background:url('../images/bg.gif') repeat-x scroll left bottom #3EC6E0;
+}
+/* header */
+header{
+	height:90px;
+	width:850px;
+	margin:0 auto;
+}
+.logo{
+	height:70px;
+	width:200px;
+	float:left;
+	margin-top:10px;
+	color:gray;
+	font-size:30px;
+}
+.level, .score{
+	height:30px;
+	width:170px;
+	float:right;
+	margin-top:30px;
+	color:gray;
+	font-size:22px;
+}
+/* content */
+.content{
+	min-height:510px;
+	height:auto !important;
+	height:510px;
+	width:850px;
+	margin:0 auto;
+}
+.infoBox{
+	height:450px;
+	width:840px;
+	border:2px gray solid;
+}
+.infoBox h1{
+	text-align:center;
+	font-size:20px;
+	margin-top:10px;
+}
+.infoBox article{
+	font-size:18px;
+	margin-top:20px;
+	padding:0 10px 0 10px;
+}
+.infoBox button{
+	float:right;
+	margin:10px 10px 0 0;
+}
+.gameZone{
+	height:95px;
+	width:95px;
+	float:left;
+	border:2px gray solid;
+	margin:0 0 3px 5px;
+	display:none;
+}
+.ok{
+	background-image:url('../images/ok.png')!important;
+}
+.displayNone{
+	display:none;
+}
+/* footer */
+footer{
+	height:200px;
+	background:url('../images/footer.gif') repeat-x;
+}

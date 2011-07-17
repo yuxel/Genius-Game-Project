@@ -1,0 +1,12 @@
+header, nav, article, footer, section, figure, aside {  
+	display: block;
+}
+
+.infoBox, .gameZone{
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	box-shadow:-5px 5px 40px gray;
+	-webkit-box-shadow:-5px 5px 40px gray;
+	-moz-box-shadow:-5px 5px 40px gray;
+}
