@@ -106,15 +106,16 @@ game.Zone = function(){
 			},500);
         }
 	});
+
+    randomNumber();
 }
 
 $(function(){
-	var level = new game.Zone();
 	
 	// startGame id li butona tıklanırsa oyunu başlatıyoruz.
 	$("#startGame").click(function(){
         $('.infoBox').fadeOut(200).addClass('displayNone');
-        randomNumber();
+	    new game.Zone();
     });
 
 });
